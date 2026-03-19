@@ -41,6 +41,6 @@ Through these manual email analysis exercises, the following skills were develop
 - **Technical Documentation & Reporting** – Producing clear, structured reports that communicate findings, risk, and supporting evidence
 
 ## Labs
-**Lab 00:** <a href="https://github.com/marcietolbert/Building-the-Ultimate-Cybersecurity-HomeLab/blob/main/Labs/SEC-SOC-Malware-Analysis-VM-Setup.md">SecLab, SOC, and Malware Analysis VM Setup</a>
 
-**Lab 02:** <a href="https://github.com/marcietolbert/Building-the-Ultimate-Cybersecurity-HomeLab/blob/main/Labs/tcpdump-and-Wireshark.md">Sniffing Network Traffic with tcpdump and Wireshark</a> 
+**Email #1:** <a href="https://github.com/marcietolbert/Email-Investigations/blob/main/Exciting-Collaboration-Opportunity.md">Exciting Collaboration Opportunity</a>
+
