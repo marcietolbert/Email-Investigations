@@ -104,8 +104,46 @@ The domain lacks SPF, DKIM, and DMARC configurations, preventing validation of s
 #### Sending Infrastructure 
 Sending IP observed mapped to domain: 216[.]120[.]147[.]200 
 
-Characteristics: 
+**Characteristics:** 
 - ISP: Bodis, LLC 
 - Domain Name: Bodis 
 
- The sending domain and IP address do not align with Uber’s known infrastructure, supporting the assessment that the domain is unauthorized and potentially malicious.
+The sending domain and IP address do not align with Uber’s known infrastructure, supporting the assessment that the domain is unauthorized and potentially malicious.
+
+### Domain Intelligence 
+
+**WHOIS Information:**
+
+| **Field**  | **Value**           |
+|------------|---------------------|
+| Domain     | partners-uber[.]com |
+| Registered | 2025-03-05          |
+| Registrar  | Hello Internet Corp |
+| Age        | 378                 |
+
+Indicators: 
+- Domain age is considerably younger than the legitimate brand domain it is attempting to replicate 
+- Registrar associated with the domain differs from that of the legitimate brand’s domain 
+- No established reputation 
+
+### Indicators of Compromise 
+
+| **Type**           | **Indicator**               |
+|--------------------|-----------------------------|
+| Domain             | partners-uber[.]com         |
+| Sender             | manager@partners-uber[.]com |
+| IP Address         | 216[.]120[.]147[.]200       |
+| Related IP Address | 34[.]98[.]99[.]30           |
+
+### Recommendations / Next Steps 
+
+- Block the impersonating domain (partner-uber[.]com) across email and network security controls. 
+- Quarantine and remove the phishing email from all affected mailboxes. 
+- Conduct a search across email logs to identify additional recipients and similar phishing attempts. 
+- Review user activity for any signs of interaction, including link clicks or credential submission. 
+- Enforce and validate SPF, DKIM, and DMARC policies to strengthen email authentication. 
+- Implement detection mechanisms for lookalike and typosquatted domains. 
+- Provide user awareness guidance regarding phishing and brand impersonation techniques. 
+- If user interaction occurred, initiate credential resets and monitor for suspicious account activity.
+
+### Attachments / Evidence 
