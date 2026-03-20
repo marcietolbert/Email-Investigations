@@ -30,7 +30,7 @@ Additionally, related IP infrastructure has been associated with phishing, brute
 
 Based on the combination of brand impersonation, deceptive domain structure, lack of email authentication, and supporting IP reputation data, this email is assessed to be a phishing attempt. 
 
-The recipient did not report responding to the email
+The recipient did not report responding to the email.
 
 ### Who, What, When, Where, Why, How 
 
