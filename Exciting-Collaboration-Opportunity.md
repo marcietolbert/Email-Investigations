@@ -34,48 +34,26 @@ The recipient did not report responding to the email.
 
 ### Who, What, When, Where, Why, How 
 
-#### Who
+**Who:** inquiry@mydfir[.]com 
 
-**Recipient:** inquiry@mydfir[.]com 
 
-**Sender:** manager@partners-uber[.]com (external sender) 
+**What:** Delivery of a phishing email using a spoofed, hyphenated second-level domain to visually impersonate the Uber brand and support a social engineering attempt aimed at eliciting a response from the recipient. 
 
-<br>
 
-#### What 
+**When:** March 19, 2025, at 7:03:51 UTC
 
-Delivery of a phishing email using a spoofed, hyphenated second-level domain to visually impersonate the Uber brand and support a social engineering attempt aimed at eliciting a response from the recipient. 
 
-<br>
+**Where:** inquiry@mydfir[.]com inbox
 
-#### When 
 
-**Initial delivery timestamp:** 
-March 19, 2025, at 7:03:51 UTC
-
-<br>
-
-#### Where 
-
-**Delivered to:** inquiry@mydfir[.]com
-
-<br>
-
-#### Why 
-
-This activity is assessed as a social engineering attempt intended to build trust and establish communication with the recipient, enabling a staged follow-up attack. Potential objectives include: 
-
+**Why:** This activity is assessed as a social engineering attempt intended to build trust and establish communication with the recipient, enabling a staged follow-up attack. Potential objectives include: 
 - Delivering malicious links or attachments in later interactions 
 - Harvesting sensitive information (e.g., credentials or internal data) 
 - Gaining unauthorized account access 
 - Facilitating financial fraud or business email compromise (BEC)
 
-<br>
 
-#### How 
-
-The attack leveraged multiple social engineering and deception techniques, including: 
-
+**How:** The attack leveraged multiple social engineering and deception techniques, including: 
 - A spoofed, hyphenated second-level domain to impersonate a trusted brand
 - An authoritative sender identity to reinforce legitimacy and influence recipient trust 
 - Generic, low-personalization messaging designed to initiate engagement and enable follow-on interaction
@@ -88,7 +66,6 @@ The attack leveraged multiple social engineering and deception techniques, inclu
 
 ### Email Header Analysis 
 
-#### Sender Information 
 **Displayed Sender:** Vanessa <manager@partners-uber[.]com> 
 
 #### Authentication Results 
@@ -100,8 +77,7 @@ The attack leveraged multiple social engineering and deception techniques, inclu
 | DKIM        | None       | No domain protection policy    |
 
 The domain lacks SPF, DKIM, and DMARC configurations, preventing validation of sender authenticity and weakening email security controls. This significantly increases the domain’s susceptibility to spoofing and makes it a viable candidate for abuse in phishing campaigns. 
-
-#### Sending Infrastructure 
+ 
 **Sending IP mapped to domain:** 216[.]120[.]147[.]200 
 
 **Characteristics:** 
@@ -112,7 +88,7 @@ The sending domain and IP address do not align with Uber’s known infrastructur
 
 ### Domain Intelligence 
 
-**WHOIS Information:**
+#### WHOIS Information
 
 | **Field**  | **Value**           |
 |------------|---------------------|
@@ -121,7 +97,7 @@ The sending domain and IP address do not align with Uber’s known infrastructur
 | Registrar  | Hello Internet Corp |
 | Age        | 378                 |
 
-Indicators: 
+**Indicators:** 
 - Domain age is considerably younger than the legitimate brand domain it is attempting to replicate 
 - Registrar associated with the domain differs from that of the legitimate brand’s domain 
 - No established reputation 
@@ -137,13 +113,13 @@ Indicators:
 
 ### Recommendations / Next Steps 
 
-- Block the impersonating domain (partner-uber[.]com) across email and network security controls. 
-- Quarantine and remove the phishing email from all affected mailboxes. 
-- Conduct a search across email logs to identify additional recipients and similar phishing attempts. 
-- Review user activity for any signs of interaction, including link clicks or credential submission. 
-- Enforce and validate SPF, DKIM, and DMARC policies to strengthen email authentication. 
-- Implement detection mechanisms for lookalike and typosquatted domains. 
-- Provide user awareness guidance regarding phishing and brand impersonation techniques. 
-- If user interaction occurred, initiate credential resets and monitor for suspicious account activity.
+1. Block the impersonating domain (partner-uber[.]com) across email and network security controls. 
+2. Quarantine and remove the phishing email from all affected mailboxes. 
+3. Conduct a search across email logs to identify additional recipients and similar phishing attempts. 
+4. Review user activity for any signs of interaction, including link clicks or credential submission. 
+5. Enforce and validate SPF, DKIM, and DMARC policies to strengthen email authentication. 
+6. Implement detection mechanisms for lookalike and typosquatted domains. 
+7. Provide user awareness guidance regarding phishing and brand impersonation techniques. 
+8. If user interaction occurred, initiate credential resets and monitor for suspicious account activity.
 
 ### Attachments / Evidence 
