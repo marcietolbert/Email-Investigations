@@ -47,3 +47,53 @@ manager@partners-uber[.]com (external sender)
 #### What 
 
 Delivery of a phishing email using a spoofed, hyphenated second-level domain to visually impersonate the Uber brand and support a social engineering attempt aimed at eliciting a response from the recipient. 
+
+<br>
+
+#### When 
+
+**Initial delivery timestamp:** 
+March 19, 2025, at 7:03:51 UTC
+
+<br>
+
+#### Where 
+
+Email delivered to inquiry@mydfir[.]com
+
+<br>
+
+#### Why 
+
+This activity is assessed as a social engineering attempt intended to build trust and establish communication with the recipient, enabling a staged follow-up attack. Potential objectives include: 
+
+- Delivering malicious links or attachments in later interactions 
+- Harvesting sensitive information (e.g., credentials or internal data) 
+- Gaining unauthorized account access 
+- Facilitating financial fraud or business email compromise (BEC)
+
+<br>
+
+#### How 
+
+The attack leveraged multiple social engineering and deception techniques, including: 
+
+- A spoofed, hyphenated second-level domain to impersonate a trusted brand
+- An authoritative sender identity to reinforce legitimacy and influence recipient trust 
+- Generic, low-personalization messaging designed to initiate engagement and enable follow-on interaction
+
+<br>
+
+### MITRE ATT&CK Techniques 
+
+Tactic 
+	
+
+Technique 
+
+Initial Access - TA0001 
+	
+
+Phishing - T1566 
+
+ 
