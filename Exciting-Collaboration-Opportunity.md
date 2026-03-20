@@ -57,7 +57,7 @@ March 19, 2025, at 7:03:51 UTC
 
 #### Where 
 
-Email delivered to inquiry@mydfir[.]com
+**Delivered to:** inquiry@mydfir[.]com
 
 <br>
 
