@@ -36,13 +36,11 @@ The recipient did not report responding to the email
 
 #### Who
 
-**Recipient:** 
-inquiry@mydfir[.]com 
+**Recipient:** inquiry@mydfir[.]com 
 
-**Sender:** 
-manager@partners-uber[.]com (external sender) 
+**Sender:** manager@partners-uber[.]com (external sender) 
 
-<br> 
+<br>
 
 #### What 
 
@@ -82,18 +80,35 @@ The attack leveraged multiple social engineering and deception techniques, inclu
 - An authoritative sender identity to reinforce legitimacy and influence recipient trust 
 - Generic, low-personalization messaging designed to initiate engagement and enable follow-on interaction
 
-<br>
-
 ### MITRE ATT&CK Techniques 
 
-Tactic 
-	
+| **Tactic**              | **Technique**    |
+|-------------------------|------------------|
+| Initial Access - TA0001 | Phishing - T1566 |
 
-Technique 
+### Email Header Analysis 
 
-Initial Access - TA0001 
-	
+#### Sender Information 
+**Displayed Sender:** Vanessa <manager@partners-uber[.]com> 
 
-Phishing - T1566 
-
+<br> 
+#### Authentication Results 
  
+| **Control** | **Result** | **Interpretation**             |
+|-------------|------------|--------------------------------|
+| SPF         | None       | No sender authorization policy |
+| DMARC       | None       | DKIM signing not implemented   |
+| DKIM        | None       | No domain protection policy    |
+
+The domain lacks SPF, DKIM, and DMARC configurations, preventing validation of sender authenticity and weakening email security controls. This significantly increases the domain’s susceptibility to spoofing and makes it a viable candidate for abuse in phishing campaigns. 
+
+<br>
+
+#### Sending Infrastructure 
+Sending IP observed mapped to domain: 216[.]120[.]147[.]200 
+
+Characteristics: 
+- ISP: Bodis, LLC 
+- Domain Name: Bodis 
+
+ The sending domain and IP address do not align with Uber’s known infrastructure, supporting the assessment that the domain is unauthorized and potentially malicious.
