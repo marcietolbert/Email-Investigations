@@ -16,7 +16,7 @@ M. Tolbert
 
 ### Summary of Findings
 
-On March 19, 2025, at **7:03:51 UTC**, a phishing email impersonating the Uber brand was received by inquiry@mydfir[.]com. The email attempted to lure the recipient with a collaboration proposal and encouraged a reply for further communication. 
+On March 19, 2025, at 7:03:51 UTC, a phishing email impersonating the Uber brand was received by inquiry@mydfir[.]com. The email attempted to lure the recipient with a collaboration proposal and encouraged a reply for further communication. 
 
 The message claimed to originate from “Vanessa,” allegedly a manager with Uber, using the sender address manager@partners-uber[.]com. The use of “manager” in the local-part of the email address is intended to convey authority and reinforce the sender’s claimed position. Additionally, the hyphenated second-level domain (partners-uber[.]com) is designed to visually impersonate the legitimate Uber brand, increasing the likelihood of user trust. A legitimate domain would more likely follow a structure such as partners[.]uber[.]com. 
 
