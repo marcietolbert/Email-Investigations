@@ -91,8 +91,6 @@ The attack leveraged multiple social engineering and deception techniques, inclu
 #### Sender Information 
 **Displayed Sender:** Vanessa <manager@partners-uber[.]com> 
 
-<br> 
-
 #### Authentication Results 
  
 | **Control** | **Result** | **Interpretation**             |
