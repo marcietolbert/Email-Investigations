@@ -102,7 +102,7 @@ The attack leveraged multiple social engineering and deception techniques, inclu
 The domain lacks SPF, DKIM, and DMARC configurations, preventing validation of sender authenticity and weakening email security controls. This significantly increases the domain’s susceptibility to spoofing and makes it a viable candidate for abuse in phishing campaigns. 
 
 #### Sending Infrastructure 
-Sending IP observed mapped to domain: 216[.]120[.]147[.]200 
+**Sending IP mapped to domain:** 216[.]120[.]147[.]200 
 
 **Characteristics:** 
 - ISP: Bodis, LLC 
