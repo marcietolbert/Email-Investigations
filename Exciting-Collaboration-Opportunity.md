@@ -59,7 +59,6 @@ The recipient did not report responding to the email.
 - Generic, low-personalization messaging designed to initiate engagement and enable follow-on interaction
 
 ### MITRE ATT&CK Techniques 
-
 | **Tactic**              | **Technique**    |
 |-------------------------|------------------|
 | Initial Access - TA0001 | Phishing - T1566 |
@@ -69,7 +68,6 @@ The recipient did not report responding to the email.
 **Displayed Sender:** Vanessa <manager@partners-uber[.]com> 
 
 #### Authentication Results 
- 
 | **Control** | **Result** | **Interpretation**             |
 |-------------|------------|--------------------------------|
 | SPF         | None       | No sender authorization policy |
@@ -89,13 +87,12 @@ The sending domain and IP address do not align with Uber’s known infrastructur
 ### Domain Intelligence 
 
 #### WHOIS Information
-
 | **Field**  | **Value**           |
 |------------|---------------------|
 | Domain     | partners-uber[.]com |
 | Registered | 2025-03-05          |
 | Registrar  | Hello Internet Corp |
-| Age        | 378                 |
+| Age        | 378 Days                 |
 
 **Indicators:** 
 - Domain age is considerably younger than the legitimate brand domain it is attempting to replicate 
@@ -103,7 +100,6 @@ The sending domain and IP address do not align with Uber’s known infrastructur
 - No established reputation 
 
 ### Indicators of Compromise 
-
 | **Type**           | **Indicator**               |
 |--------------------|-----------------------------|
 | Domain             | partners-uber[.]com         |
@@ -112,7 +108,6 @@ The sending domain and IP address do not align with Uber’s known infrastructur
 | Related IP Address | 34[.]98[.]99[.]30           |
 
 ### Recommendations / Next Steps 
-
 1. Block the impersonating domain (partner-uber[.]com) across email and network security controls. 
 2. Quarantine and remove the phishing email from all affected mailboxes. 
 3. Conduct a search across email logs to identify additional recipients and similar phishing attempts. 
@@ -122,4 +117,65 @@ The sending domain and IP address do not align with Uber’s known infrastructur
 7. Provide user awareness guidance regarding phishing and brand impersonation techniques. 
 8. If user interaction occurred, initiate credential resets and monitor for suspicious account activity.
 
-### Attachments / Evidence 
+### Attachments / Evidence
+
+#### Authentication Results:
+
+**MX Toolbox**
+<img width="1747" height="392" alt="image" src="https://github.com/user-attachments/assets/9c53d32b-b24b-4ffa-a5c2-0993cfadd9cb" />
+
+**Google Admin Toolbox**
+<img width="1040" height="841" alt="image" src="https://github.com/user-attachments/assets/f5bb7b90-8d83-4eeb-9e38-ec789ba8161c" />
+
+**Vailmail**
+<img width="1269" height="600" alt="image" src="https://github.com/user-attachments/assets/f3024ab9-0fa6-4837-ac88-1a5db48965ef" />
+
+#### WHOIS Lookup
+**Whois Domain Tools:**
+
+<img width="772" height="809" alt="image" src="https://github.com/user-attachments/assets/a499dbcd-4db2-467f-9e86-4d372ee0b5d5" />
+
+**Bishopi.io**
+<img width="1755" height="702" alt="image" src="https://github.com/user-attachments/assets/54516263-7177-4545-b47e-45815712440c" />
+
+#### Domain Reputation Check:
+
+**isMalicious**
+<img width="1572" height="594" alt="image" src="https://github.com/user-attachments/assets/488208d6-dfca-46d5-9a70-888de06d6a27" />
+
+**IBM X-FORCE Exchange**
+<img width="2007" height="412" alt="image" src="https://github.com/user-attachments/assets/d5432c8f-b7aa-429e-b8c7-be9ec84528ea" />
+
+**AlienVault OTX**
+<img width="1291" height="295" alt="image" src="https://github.com/user-attachments/assets/9e3dc3c6-e5ed-422a-9b1d-31f447f4afa6" />
+
+#### IP Reputation Check:
+
+**isMalicious**
+<img width="2302" height="1838" alt="image" src="https://github.com/user-attachments/assets/7da69112-4432-4bc2-baa9-631dd22c1081" />
+
+**IBM X-FORCE Exchange**
+<img width="2830" height="1859" alt="image" src="https://github.com/user-attachments/assets/8a1f92e6-1c63-4f60-a906-33e799aa1c33" />
+
+**AlienVault OTX**
+<img width="3773" height="1799" alt="image" src="https://github.com/user-attachments/assets/31a7fd0f-2aa1-4350-92d6-d9e294e35473" />
+
+#### Infrastructure and OSINT:
+
+**AbuseIPDB**
+<img width="1350" height="847" alt="image" src="https://github.com/user-attachments/assets/dd4a75f3-bda2-49e3-91a5-d0691de9f671" />
+
+**AbuseIPDB**
+<img width="2060" height="1811" alt="image" src="https://github.com/user-attachments/assets/06fd38a2-3e4e-4a9b-a600-740ae2934d71" />
+
+**VirusTotal**
+<img width="3270" height="1833" alt="image" src="https://github.com/user-attachments/assets/cb636f89-20dd-495d-92b1-f73be8ab644a" />
+
+**VirusTotal**
+<img width="3299" height="1161" alt="image" src="https://github.com/user-attachments/assets/5babbd46-0ddb-43c0-aa3f-59aa7020eb72" />
+
+**VirusTotal**
+<img width="3300" height="1947" alt="image" src="https://github.com/user-attachments/assets/efc1a27a-b4b5-4771-939b-7933132c6060" />
+
+**VirusTotal**
+<img width="3294" height="1919" alt="image" src="https://github.com/user-attachments/assets/6ea79bdf-cd2f-4199-9704-032c1659eea7" />
