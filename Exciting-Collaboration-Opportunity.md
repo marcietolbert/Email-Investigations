@@ -79,8 +79,8 @@ The domain lacks SPF, DKIM, and DMARC configurations, preventing validation of s
 **Sending IP mapped to domain:** 216[.]120[.]147[.]200 
 
 **Characteristics:** 
-- ISP: Bodis, LLC 
-- Domain Name: Bodis 
+- **ISP:** Bodis, LLC 
+- **Domain Name:** Bodis 
 
 The sending domain and IP address do not align with Uber’s known infrastructure, supporting the assessment that the domain is unauthorized and potentially malicious.
 
