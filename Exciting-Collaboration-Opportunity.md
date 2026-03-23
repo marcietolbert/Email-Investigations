@@ -35,8 +35,8 @@ The recipient did not report responding to the email.
 ### Who, What, When, Where, Why, How 
 
 **Who:** 
-**Recipient:** inquiry@mydfir[.]com 
-**Sender:** manager@partners-uber[.]com (suspected spoofed domain)
+- **Recipient:** inquiry@mydfir[.]com 
+- **Sender:** manager@partners-uber[.]com (suspected spoofed domain)
 
 **What:** Delivery of a phishing email using a spoofed, hyphenated second-level domain to visually impersonate the Uber brand and support a social engineering attempt aimed at eliciting a response from the recipient. 
 
