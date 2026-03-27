@@ -36,12 +36,12 @@ The recipient did not report responding to the email.
 
 **Who:** 
 - **Recipient:** inquiry@mydfir[.]com 
-- **Sender:** manager@partners-uber[.]com (suspected spoofed domain)
+- **Sender:** duolingo.ads@libero[.]it (suspected spoofed domain)
 
 **What:** Delivery of a phishing email using a spoofed, hyphenated second-level domain to visually impersonate the Uber brand and support a social engineering attempt aimed at eliciting a response from the recipient. 
 
 
-**When:** March 19, 2025, at 7:03:51 UTC
+**When:** July 13, 2025, at 15:50:03 UTC
 
 
 **Where:** inquiry@mydfir[.]com inbox
