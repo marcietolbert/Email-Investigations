@@ -42,5 +42,5 @@ Through these manual email analysis exercises, the following skills were develop
 
 ## Labs
 
-**Email #1:** <a href="https://github.com/marcietolbert/Email-Investigations/blob/main/Exciting-Collaboration-Opportunity.md">Exciting Collaboration Opportunity</a>
-**Email #2:** <a href="https://github.com/marcietolbert/Email-Investigations/blob/main/Exciting-Collaboration-Opportunity.md">Join Us in Creating Unique Material</a>
+- **Email #1:** <a href="https://github.com/marcietolbert/Email-Investigations/blob/main/Exciting-Collaboration-Opportunity.md">Exciting Collaboration Opportunity</a>
+- **Email #2:** <a href="https://github.com/marcietolbert/Email-Investigations/blob/main/Join-Us-in-Creating-Unique-Material.md">Join Us in Creating Unique Material</a>
