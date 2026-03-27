@@ -30,6 +30,16 @@ Additionally, related IP infrastructure has been associated with phishing, brute
 
 Based on the combination of brand impersonation, deceptive domain structure, lack of email authentication, and supporting IP reputation data, this email is assessed to be a phishing attempt. 
 
+
+
+
+
+The email utilizes display name spoofing (“Duolingo”) combined with a deceptive local-part (duolingo.ads) to create an appearance of legitimacy. However, the sending domain (libero[.]it) is unrelated to Duolingo’s infrastructure.
+
+A mismatch between the sender/return-path and the reply-to address (duolingo-team[.]com) indicates an attempt to redirect recipient responses to attacker-controlled infrastructure. The reply-to domain further demonstrates impersonation through the use of a hyphenated second-level domain, a common typosquatting technique.
+
+Additionally, the use of an Italian top-level domain (.it) is inconsistent with the expected infrastructure of the impersonated brand, further supporting the likelihood of a phishing attempt.
+
 The recipient did not report responding to the email.
 
 ### Who, What, When, Where, Why, How 
