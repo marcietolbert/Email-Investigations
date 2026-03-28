@@ -30,7 +30,7 @@ Additionally, related IP infrastructure has been associated with phishing, brute
 
 Based on the combination of brand impersonation, deceptive domain structure, lack of email authentication, and supporting IP reputation data, this email is assessed to be a phishing attempt. 
 
-
+The message leverages a spoofed/typosquatted domain to impersonate the [Brand] organization. This is further reinforced through the display name and email content, which attempt to establish trust and legitimacy.
 
 On March 19, 2025, at 7:03:51 UTC, a phishing email impersonating the Uber brand was received by inquiry@mydfir[.]com. The email attempted to lure the recipient with a collaboration proposal and encouraged a reply for further communication.
 
