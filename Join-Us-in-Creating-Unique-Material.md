@@ -32,7 +32,7 @@ Based on the combination of brand impersonation, deceptive domain structure, lac
 
 
 
-
+On March 19, 2025, at 7:03:51 UTC, a phishing email impersonating the Uber brand was received by inquiry@mydfir[.]com. The email attempted to lure the recipient with a collaboration proposal and encouraged a reply for further communication.
 
 The email utilizes display name spoofing (“Duolingo”) combined with a deceptive local-part (duolingo.ads) to create an appearance of legitimacy. However, the sending domain (libero[.]it) is unrelated to Duolingo’s infrastructure.
 
