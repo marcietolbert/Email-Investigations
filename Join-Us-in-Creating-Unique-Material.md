@@ -24,17 +24,15 @@ Based on the combination of brand impersonation, deceptive domain structure, lac
 
 
 
-On July 13, 2025, at 15:50:03 UTC, an email was received by inquiry@mydfir[.]com that leveraged a typosquatted domain and deceptive sender identity elements to impersonate the Duolingo brand. The email attempted to solicit a response by posing as a collaboration opportunity, using curiosity as a social engineering tactic to initiate further engagement.
+On July 13, 2025, at 15:50:03 UTC, an email was received by inquiry@mydfir[.]com impersonating Duolingo. The message posed as a collaboration opportunity and leveraged curiosity as a social engineering tactic to prompt engagement.
 
-The email utilizes display name spoofing (“Duolingo”) combined with a deceptive local-part (duolingo[.]ads) in the sending address to create an appearance of legitimacy. However, the sending domain (libero[.]it) is unrelated to Duolingo’s infrastructure. Also, the use of an Italian top-level domain (.it) is inconsistent with the expected infrastructure of the impersonated brand, further supporting the likelihood of a phishing attempt.
+The sender used display name spoofing (“Duolingo”) and a deceptive local-part (duolingo.ads@libero[.]it) to appear legitimate; however, the sending domain (libero.it) is a freemail provider unrelated to Duolingo. The presence of an Italian TLD (.it) further deviates from expected brand infrastructure.
 
-The email lacks personalization, is generic in nature, and does not include verifiable details to substantiate its claimed association with the Duolingo brand. No URLs or attachments were present.
+Header analysis identified a mismatch between the sender and reply-to addresses, with responses directed to info@duolingo-team[.]com, a typosquatted domain likely controlled by the attacker. The email content is generic, lacks personalization, and contains no verifiable details. No URLs or attachments were observed.
 
-A mismatch between the sender/return-path (duolingo.ads@libero[.]it) and the reply-to address (info@duolingo-team[.]com) indicates an attempt to redirect recipient responses to attacker-controlled infrastructure. The reply-to domain (duolingo-team[.]com] further demonstrates impersonation through the use of a hyphenated second-level domain, a common typosquatting technique.
+Although SPF and DKIM authentication checks passed, they only validate the sending domain and do not confirm the legitimacy of the impersonated brand. 
 
-Despite passing SPF and DKIM authentication checks at the time the message was received, the email leverages a freemail domain (libero.it), inconsistent with the purported Duolingo brand identity.
-
-The recipient did not report responding to the email.
+The recipient did not report any interaction with the email.
 
 ### Who, What, When, Where, Why, How 
 
