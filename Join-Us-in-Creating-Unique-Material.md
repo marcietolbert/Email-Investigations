@@ -32,7 +32,7 @@ The email utilizes display name spoofing (“Duolingo”) combined with a decept
 
 As for the email body, it lacks personalization, is generic in nature, and does not include verifiable details to substantiate its claimed association with the Duolingo brand. No URLs or attachments were present.
 
-A mismatch between the sender/return-path and the reply-to address (duolingo-team[.]com) indicates an attempt to redirect recipient responses to attacker-controlled infrastructure. The reply-to domain further demonstrates impersonation through the use of a hyphenated second-level domain, a common typosquatting technique.
+A mismatch between the sender/return-path (duolingo.ads@libero[.]it) and the reply-to address (info@duolingo-team[.]com) indicates an attempt to redirect recipient responses to attacker-controlled infrastructure. The reply-to domain (duolingo-team[.]com] further demonstrates impersonation through the use of a hyphenated second-level domain, a common typosquatting technique.
 
 Additionally, the use of an Italian top-level domain (.it) is inconsistent with the expected infrastructure of the impersonated brand, further supporting the likelihood of a phishing attempt.
 
