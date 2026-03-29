@@ -51,11 +51,13 @@ The recipient did not report responding to the email.
 **Where:** The email originated from infrastructure associated with the domain libero.it, specifically the sending IP address 213[.]209[.]10[.]34, which is not affiliated with the legitimate mail systems of Duolingo. The message was successfully delivered to the internal mailbox inquiry@mydfir[.]com via the organization’s email gateway, indicating that the email bypassed initial filtering controls and reached the recipient environment.
 
 
-**Why:** This activity is assessed as a social engineering attempt intended to build trust and establish communication with the recipient, enabling a staged follow-up attack. Potential objectives include: 
-- Delivering malicious links or attachments in later interactions 
-- Harvesting sensitive information (e.g., credentials or internal data) 
-- Gaining unauthorized account access 
-- Facilitating financial fraud or business email compromise (BEC)
+**Why:** The objective of the email appears to be initial engagement through social engineering. By posing as a representative of Duolingo and offering a collaboration opportunity, the sender attempts to build trust and prompt a response from the recipient.
+
+This type of approach is commonly used to:
+
+- Establish rapport for follow-on phishing attempts
+- Solicit sensitive information
+- Deliver malicious links or attachments in subsequent communications
 
 
 **How:** The attack leveraged multiple social engineering and deception techniques, including: 
