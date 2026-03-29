@@ -50,7 +50,7 @@ The recipient did not report responding to the email.
 **When:** July 13, 2025, at 15:50:03 UTC
 
 
-**Where:** The email originated from infrastructure associated with the domain libero.it, specifically the sending IP address 213.209.10.34, which is not affiliated with the legitimate mail systems of Duolingo. The message was successfully delivered to the internal mailbox inquiry@mydfir[.]com via the organization’s email gateway, indicating that the email bypassed initial filtering controls and reached the recipient environment.
+**Where:** The email originated from infrastructure associated with the domain libero.it, specifically the sending IP address 213[.]209[.]10[.]34, which is not affiliated with the legitimate mail systems of Duolingo. The message was successfully delivered to the internal mailbox inquiry@mydfir[.]com via the organization’s email gateway, indicating that the email bypassed initial filtering controls and reached the recipient environment.
 
 
 **Why:** This activity is assessed as a social engineering attempt intended to build trust and establish communication with the recipient, enabling a staged follow-up attack. Potential objectives include: 
