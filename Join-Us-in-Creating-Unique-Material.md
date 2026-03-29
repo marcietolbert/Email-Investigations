@@ -16,8 +16,6 @@ M. Tolbert
 
 ### Summary of Findings
 
-On March 19, 2025, at 7:03:51 UTC, a phishing email impersonating the Uber brand was received by inquiry@mydfir[.]com. The email attempted to lure the recipient with a collaboration proposal and encouraged a reply for further communication. 
-
 The message claimed to originate from “Vanessa,” allegedly a manager with Uber, using the sender address manager@partners-uber[.]com. The use of “manager” in the local-part of the email address is intended to convey authority and reinforce the sender’s claimed position. Additionally, the hyphenated second-level domain (partners-uber[.]com) is designed to visually impersonate the legitimate Uber brand, increasing the likelihood of user trust. A legitimate domain would more likely follow a structure such as partners[.]uber[.]com. 
 
 The email lacked personalization and used generic brand collaboration language. No URLs or attachments were present, indicating the absence of an immediate technical payload and suggesting a social engineering objective focused on eliciting a response. 
@@ -32,7 +30,9 @@ Based on the combination of brand impersonation, deceptive domain structure, lac
 
 The message leverages a spoofed/typosquatted domain to impersonate the [Brand] organization. This is further reinforced through the display name and email content, which attempt to establish trust and legitimacy.
 
-On March 19, 2025, at 7:03:51 UTC, a phishing email impersonating the Uber brand was received by inquiry@mydfir[.]com. The email attempted to lure the recipient with a collaboration proposal and encouraged a reply for further communication.
+
+
+On July 13, 2025, at 15:50:03 UTC, an email leveraging a typosquatted domain in conjunction with deceptive sender identity elements to impersonate the Duolingo brand was received by inquiry@mydfir[.]com. The email attempted to solicit a response by posing as a collaboration opportunity, using curiosity as a social engineering lure to initiate further engagement.
 
 The email utilizes display name spoofing (“Duolingo”) combined with a deceptive local-part (duolingo.ads) to create an appearance of legitimacy. However, the sending domain (libero[.]it) is unrelated to Duolingo’s infrastructure.
 
