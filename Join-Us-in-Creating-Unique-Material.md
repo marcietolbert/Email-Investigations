@@ -44,13 +44,13 @@ The recipient did not report responding to the email.
 - **Recipient:** inquiry@mydfir[.]com 
 - **Sender:** duolingo.ads@libero[.]it (suspected spoofed domain)
 
-**What:** Delivery of a phishing email using a spoofed, hyphenated second-level domain to visually impersonate the Uber brand and support a social engineering attempt aimed at eliciting a response from the recipient. 
+**What:** A suspicious email was identified that impersonates Duolingo and presents a collaboration opportunity related to linguistic content creation. The message attempts to establish credibility by referencing the recipient’s perceived involvement in language education. 
 
 
 **When:** July 13, 2025, at 15:50:03 UTC
 
 
-**Where:** inquiry@mydfir[.]com inbox
+**Where:** The email originated from infrastructure associated with the domain libero.it, specifically the sending IP address 213.209.10.34, which is not affiliated with the legitimate mail systems of Duolingo. The message was successfully delivered to the internal mailbox inquiry@mydfir[.]com via the organization’s email gateway, indicating that the email bypassed initial filtering controls and reached the recipient environment.
 
 
 **Why:** This activity is assessed as a social engineering attempt intended to build trust and establish communication with the recipient, enabling a staged follow-up attack. Potential objectives include: 
