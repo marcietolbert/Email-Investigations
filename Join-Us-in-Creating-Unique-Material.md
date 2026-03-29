@@ -28,7 +28,7 @@ On July 13, 2025, at 15:50:03 UTC, an email was received by inquiry@mydfir[.]com
 
 The email utilizes display name spoofing (“Duolingo”) combined with a deceptive local-part (duolingo[.]ads) in the sending address to create an appearance of legitimacy. However, the sending domain (libero[.]it) is unrelated to Duolingo’s infrastructure. Also, the use of an Italian top-level domain (.it) is inconsistent with the expected infrastructure of the impersonated brand, further supporting the likelihood of a phishing attempt.
 
-As for the email body, it lacks personalization, is generic in nature, and does not include verifiable details to substantiate its claimed association with the Duolingo brand. No URLs or attachments were present.
+The email lacks personalization, is generic in nature, and does not include verifiable details to substantiate its claimed association with the Duolingo brand. No URLs or attachments were present.
 
 A mismatch between the sender/return-path (duolingo.ads@libero[.]it) and the reply-to address (info@duolingo-team[.]com) indicates an attempt to redirect recipient responses to attacker-controlled infrastructure. The reply-to domain (duolingo-team[.]com] further demonstrates impersonation through the use of a hyphenated second-level domain, a common typosquatting technique.
 
