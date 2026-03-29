@@ -60,10 +60,14 @@ This type of approach is commonly used to:
 - Deliver malicious links or attachments in subsequent communications
 
 
-**How:** The attack leveraged multiple social engineering and deception techniques, including: 
-- A spoofed, hyphenated second-level domain to impersonate a trusted brand
-- An authoritative sender identity to reinforce legitimacy and influence recipient trust 
-- Generic, low-personalization messaging designed to initiate engagement and enable follow-on interaction
+**How:** The email was sent via a freemail service (libero.it) and configured to pass SPF and DKIM authentication, allowing it to bypass basic email security controls.
+
+Overall, the attack leverages a combination of:
+
+Legitimate email authentication (SPF/DKIM) to evade detection
+Brand impersonation to establish trust
+Generic social engineering to prompt engagement
+
 
 ### MITRE ATT&CK Techniques 
 | **Tactic**              | **Technique**    |
