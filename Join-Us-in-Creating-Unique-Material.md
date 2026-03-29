@@ -64,9 +64,9 @@ This type of approach is commonly used to:
 
 Overall, the attack leverages a combination of:
 
-Legitimate email authentication (SPF/DKIM) to evade detection
-Brand impersonation to establish trust
-Generic social engineering to prompt engagement
+- Legitimate email authentication (SPF/DKIM) to evade detection
+- Brand impersonation to establish trust
+- Generic social engineering to prompt engagement
 
 
 ### MITRE ATT&CK Techniques 
