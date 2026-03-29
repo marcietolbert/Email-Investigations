@@ -32,7 +32,7 @@ The message leverages a spoofed/typosquatted domain to impersonate the [Brand] o
 
 
 
-On July 13, 2025, at 15:50:03 UTC, an email leveraging a typosquatted domain in conjunction with deceptive sender identity elements to impersonate the Duolingo brand was received by inquiry@mydfir[.]com. The email attempted to solicit a response by posing as a collaboration opportunity, using curiosity as a social engineering lure to initiate further engagement.
+On July 13, 2025, at 15:50:03 UTC, an email was received by inquiry@mydfir[.]com that leveraged a typosquatted domain and deceptive sender identity elements to impersonate the Duolingo brand. The email attempted to solicit a response by posing as a collaboration opportunity, using curiosity as a social engineering lure to initiate further engagement.
 
 The email utilizes display name spoofing (“Duolingo”) combined with a deceptive local-part (duolingo.ads) to create an appearance of legitimacy. However, the sending domain (libero[.]it) is unrelated to Duolingo’s infrastructure.
 
