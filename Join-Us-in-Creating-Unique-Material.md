@@ -34,7 +34,7 @@ As for the email body, it lacks personalization, is generic in nature, and does 
 
 A mismatch between the sender/return-path (duolingo.ads@libero[.]it) and the reply-to address (info@duolingo-team[.]com) indicates an attempt to redirect recipient responses to attacker-controlled infrastructure. The reply-to domain (duolingo-team[.]com] further demonstrates impersonation through the use of a hyphenated second-level domain, a common typosquatting technique.
 
-
+Despite passing SPF and DKIM authentication checks at the time the message was received, the email leverages a freemail domain (libero.it), inconsistent with the purported Duolingo brand identity.
 
 The recipient did not report responding to the email.
 
