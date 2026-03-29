@@ -16,8 +16,6 @@ M. Tolbert
 
 ### Summary of Findings
 
-The message claimed to originate from “Vanessa,” allegedly a manager with Uber, using the sender address manager@partners-uber[.]com. The use of “manager” in the local-part of the email address is intended to convey authority and reinforce the sender’s claimed position. Additionally, the hyphenated second-level domain (partners-uber[.]com) is designed to visually impersonate the legitimate Uber brand, increasing the likelihood of user trust. A legitimate domain would more likely follow a structure such as partners[.]uber[.]com. 
-
 The email lacked personalization and used generic brand collaboration language. No URLs or attachments were present, indicating the absence of an immediate technical payload and suggesting a social engineering objective focused on eliciting a response. 
 
 Email authentication analysis revealed that the domain has no SPF record configured, no DKIM signature present, and no DMARC policy in place. The absence of these controls prevents verification of sender legitimacy and is commonly associated with malicious or untrusted domains. 
