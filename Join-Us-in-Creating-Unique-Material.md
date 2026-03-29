@@ -16,8 +16,6 @@ M. Tolbert
 
 ### Summary of Findings
 
-Email authentication analysis revealed that the domain has no SPF record configured, no DKIM signature present, and no DMARC policy in place. The absence of these controls prevents verification of sender legitimacy and is commonly associated with malicious or untrusted domains. 
-
 Domain intelligence results were inconclusive, with sources reporting the domain as safe, unknown, or returning no detections. However, this does not indicate legitimacy, as newly registered or low-reputation domains often lack sufficient visibility in reputation systems. In contrast, the most recently resolved IP address associated with the domain was flagged as suspicious by multiple reputation sources, indicating a stronger likelihood of malicious activity. 
 
 Additionally, related IP infrastructure has been associated with phishing, brute-force activity, fraud, and other malicious behaviors, including malware distribution and cryptojacking. 
