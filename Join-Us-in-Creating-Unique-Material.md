@@ -16,8 +16,6 @@ M. Tolbert
 
 ### Summary of Findings
 
-The email lacked personalization and used generic brand collaboration language. No URLs or attachments were present, indicating the absence of an immediate technical payload and suggesting a social engineering objective focused on eliciting a response. 
-
 Email authentication analysis revealed that the domain has no SPF record configured, no DKIM signature present, and no DMARC policy in place. The absence of these controls prevents verification of sender legitimacy and is commonly associated with malicious or untrusted domains. 
 
 Domain intelligence results were inconclusive, with sources reporting the domain as safe, unknown, or returning no detections. However, this does not indicate legitimacy, as newly registered or low-reputation domains often lack sufficient visibility in reputation systems. In contrast, the most recently resolved IP address associated with the domain was flagged as suspicious by multiple reputation sources, indicating a stronger likelihood of malicious activity. 
@@ -26,13 +24,13 @@ Additionally, related IP infrastructure has been associated with phishing, brute
 
 Based on the combination of brand impersonation, deceptive domain structure, lack of email authentication, and supporting IP reputation data, this email is assessed to be a phishing attempt. 
 
-The message leverages a spoofed/typosquatted domain to impersonate the [Brand] organization. This is further reinforced through the display name and email content, which attempt to establish trust and legitimacy.
-
 
 
 On July 13, 2025, at 15:50:03 UTC, an email was received by inquiry@mydfir[.]com that leveraged a typosquatted domain and deceptive sender identity elements to impersonate the Duolingo brand. The email attempted to solicit a response by posing as a collaboration opportunity, using curiosity as a social engineering lure to initiate further engagement.
 
 The email utilizes display name spoofing (“Duolingo”) combined with a deceptive local-part (duolingo.ads) in the sending address to create an appearance of legitimacy. However, the sending domain (libero[.]it) is unrelated to Duolingo’s infrastructure.
+
+As for the email body, it lacks personalization, is generic in nature, and does not include verifiable details to substantiate its claimed association with the Duolingo brand. No URLs or attachments were present.
 
 A mismatch between the sender/return-path and the reply-to address (duolingo-team[.]com) indicates an attempt to redirect recipient responses to attacker-controlled infrastructure. The reply-to domain further demonstrates impersonation through the use of a hyphenated second-level domain, a common typosquatting technique.
 
