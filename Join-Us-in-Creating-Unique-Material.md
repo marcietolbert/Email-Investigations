@@ -26,7 +26,7 @@ Domain intelligence results for duolingo-team[.]com were inconclusive, with sour
 
 The declared sending host is historically associated with a domain linked to phishing and other suspicious activity.
 
-Based on the combination of brand impersonation, deceptive domain structure, lack of email authentication, and supporting IP reputation data, this email is assessed to be a phishing attempt. 
+Based on the analysis, the email is assessed to be a phishing attempt leveraging brand impersonation of Duolingo and social engineering techniques to solicit engagement. The use of a freemail domain, authenticated SMTP (ESMTPSA), inconsistent sender infrastructure, and reply-to domain misalignment further supports the conclusion that the message is malicious in nature.
 
 The recipient did not report any interaction with the email.
 
