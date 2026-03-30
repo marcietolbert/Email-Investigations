@@ -8,7 +8,7 @@ This report documents the analysis of a suspected phishing email leveraging bran
 
 ## Report
 
-Suspicious Brand Impersonation Email – Collaboration Request
+Suspected Phishing Email – Collaboration Request
 
 ### Analyst
 
