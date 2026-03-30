@@ -43,7 +43,7 @@ Based on the available evidence, this email is assessed to be a phishing attempt
 **When:** July 13, 2025, at 15:50:03 UTC
 
 
-**Where:** The email originated from infrastructure associated with the domain libero.it, specifically the sending IP address 213[.]209[.]10[.]34, which is not affiliated with the legitimate mail systems of Duolingo. The message was successfully delivered to the internal mailbox inquiry@mydfir[.]com via the organization’s email gateway, indicating that the email bypassed initial filtering controls and reached the recipient environment.
+**Where:** The email originated from infrastructure associated with the domain libero[.]it, with a connecting IP address of 90[.]160[.]50[.]35. Header analysis also identified a declared sending host of 5[.]9[.]230[.]8, which does not align with the connecting IP. The message was successfully delivered to the internal mailbox inquiry@mydfir[.]com via the organization’s email gateway, indicating that the email bypassed initial filtering controls and reached the recipient environment.
 
 
 **Why:** The objective of the email appears to be initial engagement through social engineering. By posing as a representative of Duolingo and offering a collaboration opportunity, the sender attempts to build trust and prompt a response from the recipient.
