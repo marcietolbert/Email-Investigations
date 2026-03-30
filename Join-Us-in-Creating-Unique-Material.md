@@ -16,12 +16,6 @@ M. Tolbert
 
 ### Summary of Findings
 
-Additionally, related IP infrastructure has been associated with phishing, brute-force activity, fraud, and other malicious behaviors, including malware distribution and cryptojacking. 
-
-Based on the combination of brand impersonation, deceptive domain structure, lack of email authentication, and supporting IP reputation data, this email is assessed to be a phishing attempt. 
-
-
-
 On July 13, 2025, at 15:50:03 UTC, an email was received by inquiry@mydfir[.]com impersonating Duolingo. The message posed as a collaboration opportunity and leveraged curiosity as a social engineering tactic to prompt engagement.
 
 The sender used display name spoofing (“Duolingo”) and a deceptive local-part (duolingo.ads@libero[.]it) to appear legitimate; however, the sending domain (libero.it) is a freemail provider unrelated to Duolingo. The presence of an Italian TLD (.it) further deviates from expected brand infrastructure.
@@ -30,7 +24,11 @@ Header analysis identified a mismatch between the sender and reply-to addresses,
 
 Although SPF and DKIM authentication checks passed, they only validate the sending domain and do not confirm the legitimacy of the impersonated brand. The reply-to domain passed SPF but failed DKIM and DMARC authentication checks, indicating potential misalignment and increased likelihood of malicious intent. Also, a mismatch between the declared sending host and the connecting IP suggests potential sender obfuscation.
 
-Domain intelligence results for duolingo-team[.]com were inconclusive, with sources reporting the domain as safe, unknown, or returning no detections. In contrast, the most recently resolved IP address associated with the domain was flagged as suspicious by multiple reputation sources, indicating a stronger likelihood of malicious activity. 
+Domain intelligence results for duolingo-team[.]com were inconclusive, with sources reporting the domain as safe, unknown, or returning no detections. In contrast, the most recently resolved IP address associated with the domain was flagged as suspicious by multiple reputation sources, indicating a stronger likelihood of malicious activity.
+
+Additionally, related IP infrastructure has been associated with phishing, brute-force activity, fraud, and other malicious behaviors, including malware distribution and cryptojacking. 
+
+Based on the combination of brand impersonation, deceptive domain structure, lack of email authentication, and supporting IP reputation data, this email is assessed to be a phishing attempt. 
 
 The recipient did not report any interaction with the email.
 
