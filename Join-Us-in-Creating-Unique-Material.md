@@ -20,7 +20,7 @@ On July 13, 2025, at 15:50:03 UTC, the mailbox inquiry@mydfir[.]com received an 
 
 Header analysis revealed the email was sent via a freemail account (libero.it) using authenticated SMTP (ESMTPSA). The claimed sending host (5[.]9[.]230[.]8) did not match the connecting IP (90[.]160[.]50[.]35), indicating inconsistent sender identification and potential use of obfuscation or non-standard email tools. Additionally, the reply-to domain differed from the sending domain, further demonstrating impersonation and typosquatting tactics.
 
-Although SPF and DKIM authentication checks passed, they only validate the sending domain and do not confirm the legitimacy of the impersonated brand. The reply-to domain passed SPF but failed DKIM and DMARC authentication checks, indicating potential misalignment and increased likelihood of malicious intent. Also, a mismatch between the declared sending host and the connecting IP suggests potential sender obfuscation.
+While SPF and DKIM checks passed for the sending domain, these authentication mechanisms do not validate the legitimacy of the impersonated brand. The reply-to domain passed SPF but failed DKIM and DMARC authentication checks, indicating potential misalignment and increased likelihood of malicious intent. 
 
 Domain intelligence results for duolingo-team[.]com were inconclusive, with sources reporting the domain as safe, unknown, or returning no detections. In contrast, the most recently resolved IP address associated with the domain was flagged as suspicious by multiple reputation sources, indicating a stronger likelihood of malicious activity.
 
