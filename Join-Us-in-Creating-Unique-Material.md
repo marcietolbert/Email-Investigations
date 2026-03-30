@@ -16,7 +16,7 @@ M. Tolbert
 
 ### Summary of Findings
 
-On July 13, 2025, at 15:50:03 UTC, the mailbox inquiry@mydfir[.]com received an email appearing to originate from the Duolingo brand. The message posed as a collaboration request and used curiosity to encourage the recipient to respond.
+On July 13, 2025, at 15:50:03 UTC, the mailbox inquiry@mydfir[.]com received an email appearing to originate from the Duolingo brand. The message posed as a collaboration request and used curiosity to encourage the recipient to respond. The recipient did not report any interaction with the email.
 
 Header analysis revealed the email was sent via a freemail account (libero.it) using authenticated SMTP (ESMTPSA). The claimed sending host (5[.]9[.]230[.]8) did not match the connecting IP (90[.]160[.]50[.]35), indicating inconsistent sender identification and potential use of obfuscation or non-standard email tools. Additionally, the reply-to domain differed from the sending domain, further demonstrating impersonation and typosquatting tactics.
 
@@ -28,7 +28,6 @@ The declared sending host is historically associated with a domain linked to phi
 
 Based on the analysis, the email is assessed to be a phishing attempt leveraging brand impersonation of Duolingo and social engineering techniques to solicit engagement. The use of a freemail domain, authenticated SMTP (ESMTPSA), inconsistent sender infrastructure, and reply-to domain misalignment further supports the conclusion that the message is malicious in nature.
 
-The recipient did not report any interaction with the email.
 
 ### Who, What, When, Where, Why, How 
 
