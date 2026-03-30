@@ -58,7 +58,7 @@ This type of approach is commonly used to:
 - Deliver malicious links or attachments in subsequent communications
 
 
-**How:** The email was sent via a freemail service (libero.it) and configured to pass SPF and DKIM authentication, allowing it to bypass basic email security controls.
+**How:** The email was submitted via an authenticated SMTP session (ESMTPSA) using a freemail account, allowing it to pass SPF and DKIM checks and bypass basic email security controls.
 
 Overall, the attack leverages a combination of:
 
