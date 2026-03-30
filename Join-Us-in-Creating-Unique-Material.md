@@ -58,7 +58,7 @@ This type of approach is commonly used to:
 - Deliver malicious links or attachments in subsequent communications
 
 
-**How:** The email was submitted via an authenticated SMTP session (ESMTPSA) using a freemail account, allowing it to pass SPF and DKIM checks and bypass basic email security controls.
+**How:** The email was submitted via an authenticated SMTP session (ESMTPSA) using a freemail account, allowing it to pass SPF and DKIM checks and bypass basic email security controls. The sending host information does not align with the connecting IP address, indicating inconsistent sender identification and suggesting the use of obfuscation or non-standard email tooling.
 
 Overall, the attack leverages a combination of:
 
