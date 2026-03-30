@@ -32,7 +32,8 @@ Based on the available evidence, this email is assessed to be a phishing attempt
 
 **Who:** 
 - **Recipient:** inquiry@mydfir[.]com 
-- **Sender:** duolingo.ads@libero[.]it (suspected spoofed domain)
+- **Sender:** duolingo.ads@libero[.]it (freemail)
+- **Reply-To:** info@duolingo-team[.]com (suspected spoofed domain)
 - **Claimed Sending Host:** 5[.]9[.]230[.]8
 - **Connecting IP:** 90[.]160[.]50[.]35
 
