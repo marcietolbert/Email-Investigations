@@ -24,7 +24,7 @@ While SPF and DKIM checks passed for the sending domain, these mechanisms only v
 
 Domain intelligence results for duolingo-team[.]com were inconclusive, with sources reporting the domain as safe, unknown, or returning no detections. Reputation checks for both IP addresses returned inconclusive results; however, the associated infrastructure resolves to different geographic locations (Spain and Germany), indicating inconsistent sender identification and suggesting the use of disparate or unrelated systems.
 
-Additionally, related IP infrastructure has been associated with phishing, brute-force activity, fraud, and other malicious behaviors, including malware distribution and cryptojacking. 
+The declared sending host is historically associated with a domain linked to phishing and other suspicious activity.
 
 Based on the combination of brand impersonation, deceptive domain structure, lack of email authentication, and supporting IP reputation data, this email is assessed to be a phishing attempt. 
 
