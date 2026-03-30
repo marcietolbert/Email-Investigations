@@ -2,9 +2,9 @@
 
 ## Introduction
 
-**Scenario:** External email claiming to be from a trusted brand requesting collaboration.
+**Scenario:** External email received claiming to be from the Duolingo brand, proposing a collaboration.
 
-This report documents the analysis of a suspected phishing email leveraging brand impersonation techniques. The investigation focuses on evaluating the sender domain, email authentication results, and message content to determine legitimacy. The goal is to identify indicators of compromise and assess whether the email poses a security risk.
+This report documents the analysis of a suspected phishing email leveraging brand impersonation and social engineering techniques. The investigation examines the sender domain, email authentication results, header anomalies, and message content to assess legitimacy. The goal is to identify indicators of compromise and determine whether the email poses a potential security risk.
 
 ## Report
 
