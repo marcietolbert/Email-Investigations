@@ -18,9 +18,7 @@ M. Tolbert
 
 On July 13, 2025, at 15:50:03 UTC, the mailbox inquiry@mydfir[.]com received an email appearing to originate from the Duolingo brand. The message posed as a collaboration request and used curiosity to encourage the recipient to respond.
 
-The sender used display name spoofing (“Duolingo”) and a deceptive local-part (duolingo.ads@libero[.]it) to appear legitimate. However, the sending domain (libero.it) is a freemail provider unrelated to Duolingo. The presence of an Italian TLD (.it) further deviates from expected brand infrastructure.
-
-Header analysis identified a mismatch between the sender and reply-to addresses, with responses directed to info@duolingo-team[.]com, a typosquatted domain likely controlled by the attacker. The email content is generic, lacks personalization, and contains no verifiable details. No URLs or attachments were observed.
+Header analysis revealed the email was sent via a freemail account (libero.it) using authenticated SMTP (ESMTPSA). The claimed sending host (5.9.230.8) did not match the connecting IP (90.160.50.35), indicating inconsistent sender identification and potential use of obfuscation or non-standard email tools. Additionally, the reply-to domain differed from the sending domain, further demonstrating impersonation and typosquatting tactics.
 
 Although SPF and DKIM authentication checks passed, they only validate the sending domain and do not confirm the legitimacy of the impersonated brand. The reply-to domain passed SPF but failed DKIM and DMARC authentication checks, indicating potential misalignment and increased likelihood of malicious intent. Also, a mismatch between the declared sending host and the connecting IP suggests potential sender obfuscation.
 
