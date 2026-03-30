@@ -33,6 +33,8 @@ Based on the available evidence, this email is assessed to be a phishing attempt
 **Who:** 
 - **Recipient:** inquiry@mydfir[.]com 
 - **Sender:** duolingo.ads@libero[.]it (suspected spoofed domain)
+- **Claimed Sending Host:** 5[.]9[.]230[.]8
+- **Connecting IP:** 90[.]160[.]50[.]35
 
 **What:** A suspicious email was identified that impersonates Duolingo and presents a collaboration opportunity related to linguistic content creation. The message attempts to establish credibility by referencing the recipient’s perceived involvement in language education. 
 
