@@ -28,7 +28,7 @@ The sender used display name spoofing (“Duolingo”) and a deceptive local-par
 
 Header analysis identified a mismatch between the sender and reply-to addresses, with responses directed to info@duolingo-team[.]com, a typosquatted domain likely controlled by the attacker. The email content is generic, lacks personalization, and contains no verifiable details. No URLs or attachments were observed.
 
-Although SPF and DKIM authentication checks passed, they only validate the sending domain and do not confirm the legitimacy of the impersonated brand. The reply-to domain passed SPF but failed DKIM and DMARC authentication checks, indicating potential misalignment and increased likelihood of malicious intent.
+Although SPF and DKIM authentication checks passed, they only validate the sending domain and do not confirm the legitimacy of the impersonated brand. The reply-to domain passed SPF but failed DKIM and DMARC authentication checks, indicating potential misalignment and increased likelihood of malicious intent. Also, a mismatch between the declared sending host and the connecting IP suggests potential sender obfuscation.
 
 Domain intelligence results for duolingo-team[.]com were inconclusive, with sources reporting the domain as safe, unknown, or returning no detections. In contrast, the most recently resolved IP address associated with the domain was flagged as suspicious by multiple reputation sources, indicating a stronger likelihood of malicious activity. 
 
