@@ -71,7 +71,7 @@ Overall, the attack leverages a combination of:
 
 ### Email Header Analysis 
 
-**Displayed Sender:** Vanessa <manager@partners-uber[.]com> 
+**Displayed Sender:** Duolingo <duolingo.ads@libero[.]it> 
 
 #### Authentication Results 
 | **Control** | **Result** | **Interpretation**             |
