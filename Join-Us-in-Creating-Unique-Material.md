@@ -22,7 +22,7 @@ Header analysis revealed the email was sent via a freemail account (libero.it) u
 
 While SPF and DKIM checks passed for the sending domain, these mechanisms only validate domain authorization and do not confirm the legitimacy of the impersonated Duolingo brand. The reply-to domain passed SPF but failed DKIM and DMARC, indicating authentication misalignment and an increased likelihood of malicious intent. 
 
-Domain intelligence results for duolingo-team[.]com were inconclusive, with sources reporting the domain as safe, unknown, or returning no detections. In contrast, the most recently resolved IP address associated with the domain was flagged as suspicious by multiple reputation sources, indicating a stronger likelihood of malicious activity.
+Domain intelligence results for duolingo-team[.]com were inconclusive, with sources reporting the domain as safe, unknown, or returning no detections. Reputation checks for both IP addresses returned inconclusive results; however, the associated infrastructure resolves to different geographic locations (Spain and Germany), indicating inconsistent sender identification and suggesting the use of disparate or unrelated systems.
 
 Additionally, related IP infrastructure has been associated with phishing, brute-force activity, fraud, and other malicious behaviors, including malware distribution and cryptojacking. 
 
