@@ -16,18 +16,17 @@ M. Tolbert
 
 ### Summary of Findings
 
-On July 13, 2025, at 15:50:03 UTC, the mailbox inquiry@mydfir[.]com received an email appearing to originate from the Duolingo brand. The message posed as a collaboration request and used curiosity to encourage the recipient to respond. The recipient did not report any interaction with the email.
+On July 13, 2025, at 15:50:03 UTC, the mailbox inquiry@mydfir[.]com received an email appearing to originate from the Duolingo brand. The message posed as a collaboration request and leveraged curiosity as a social engineering tactic to prompt a response. The recipient reported no interaction with the email.
 
-Header analysis revealed the email was sent via a freemail account (libero.it) using authenticated SMTP (ESMTPSA). The claimed sending host (5[.]9[.]230[.]8) did not match the connecting IP (90[.]160[.]50[.]35), indicating inconsistent sender identification and potential use of obfuscation or non-standard email tools. Additionally, the reply-to domain differed from the sending domain, further demonstrating impersonation and typosquatting tactics.
+Header analysis identified that the message was sent via a freemail account (libero[.]it) using authenticated SMTP (ESMTPSA). The claimed sending host (5[.]9[.]230[.]8) did not match the connecting IP address (90[.]160[.]50[.]35), indicating inconsistent sender identification and potential use of obfuscation or non-standard mailing infrastructure. Additionally, the Reply-To domain differed from the sending domain, further supporting the use of impersonation and typosquatting techniques.
 
-While SPF and DKIM checks passed for the sending domain, these mechanisms only validate domain authorization and do not confirm the legitimacy of the impersonated Duolingo brand. The reply-to domain passed SPF but failed DKIM and DMARC, indicating authentication misalignment and an increased likelihood of malicious intent. 
+Although SPF and DKIM checks passed for the sending domain, these controls only validate domain authorization and do not confirm the legitimacy of the impersonated Duolingo brand. The Reply-To domain passed SPF but failed both DKIM and DMARC, indicating authentication misalignment and increasing the likelihood of malicious intent.
 
-Domain intelligence results for duolingo-team[.]com were inconclusive, with sources reporting the domain as safe, unknown, or returning no detections. Reputation checks for both IP addresses returned inconclusive results; however, the associated infrastructure resolves to different geographic locations (Spain and Germany), indicating inconsistent sender identification and suggesting the use of disparate or unrelated systems.
+Domain intelligence for duolingo-team[.]com was inconclusive, with sources reporting the domain as safe, unknown, or returning no detections. Reputation checks for both IP addresses were similarly inconclusive; however, the associated infrastructure resolves to different geographic regions (Spain and Germany), reinforcing the assessment of inconsistent and potentially unrelated sending infrastructure.
 
-The declared sending host is historically associated with a domain linked to phishing and other suspicious activity.
+The declared sending host has historical associations with domains linked to phishing and other suspicious activity.
 
-Based on the analysis, the email is assessed to be a phishing attempt leveraging brand impersonation of Duolingo and social engineering techniques to solicit engagement. The use of a freemail domain, authenticated SMTP (ESMTPSA), inconsistent sender infrastructure, and reply-to domain misalignment further supports the conclusion that the message is malicious in nature.
-
+Based on the available evidence, this email is assessed to be a phishing attempt leveraging brand impersonation of Duolingo and social engineering techniques to solicit engagement. The use of a freemail service, authenticated SMTP, inconsistent sender infrastructure, and Reply-To domain misalignment further supports the conclusion that the message is malicious.
 
 ### Who, What, When, Where, Why, How 
 
