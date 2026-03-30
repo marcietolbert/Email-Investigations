@@ -16,7 +16,7 @@ M. Tolbert
 
 ### Summary of Findings
 
-On July 13, 2025, at 15:50:03 UTC, an email was received by inquiry@mydfir[.]com impersonating Duolingo. The message posed as a collaboration opportunity and leveraged curiosity as a social engineering tactic to prompt engagement.
+On July 13, 2025, at 15:50:03 UTC, the mailbox inquiry@mydfir[.]com received an email appearing to originate from the Duolingo brand. The message posed as a collaboration request and used curiosity to encourage the recipient to respond.
 
 The sender used display name spoofing (“Duolingo”) and a deceptive local-part (duolingo.ads@libero[.]it) to appear legitimate; however, the sending domain (libero.it) is a freemail provider unrelated to Duolingo. The presence of an Italian TLD (.it) further deviates from expected brand infrastructure.
 
