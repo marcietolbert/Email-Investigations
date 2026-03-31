@@ -118,13 +118,12 @@ The discrepancy between the sending domain and reply-to domain indicates an atte
 - No established reputation 
 
 ### Indicators of Compromise 
-| **Type**           | **Indicator**               |
-|--------------------|-----------------------------|
-| Domain             | duolingo-team[.]com         |
-| Sender             | duolingo.ads@libero[.]it    |
-| Reply-To           | info@duolingo-team[.]com    |
-| IP Address         | 216[.]120[.]147[.]200       |
-| Related IP Address | 34[.]98[.]99[.]30           |
+| **Type**              | **Indicator**               |
+|-----------------------|-----------------------------|
+| Domain                | duolingo-team[.]com         |
+| Sender                | duolingo.ads@libero[.]it    |
+| Reply-To              | info@duolingo-team[.]com    |
+| Connecting IP Address | 90[.]160[.]50[.]35          |
 
 ### Recommendations / Next Steps 
 1. Block the impersonating domain (partner-uber[.]com) across email and network security controls. 
