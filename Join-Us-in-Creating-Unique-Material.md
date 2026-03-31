@@ -107,10 +107,10 @@ The discrepancy between the sending domain and reply-to domain indicates an atte
 #### WHOIS Information
 | **Field**  | **Value**           |
 |------------|---------------------|
-| Domain     | partners-uber[.]com |
-| Registered | 2025-03-05          |
-| Registrar  | Hello Internet Corp |
-| Age        | 378 Days                 |
+| Domain     | duolingo-team[.]com |
+| Registered | 2025-07-10          |
+| Registrar  | WEBCC Web Commerce Communications Limited dba WebNic.cc|
+| Age        | 264 Days            |
 
 **Indicators:** 
 - Domain age is considerably younger than the legitimate brand domain it is attempting to replicate 
