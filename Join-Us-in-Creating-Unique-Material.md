@@ -120,8 +120,9 @@ The discrepancy between the sending domain and reply-to domain indicates an atte
 ### Indicators of Compromise 
 | **Type**           | **Indicator**               |
 |--------------------|-----------------------------|
-| Domain             | partners-uber[.]com         |
-| Sender             | manager@partners-uber[.]com |
+| Domain             | duolingo-team[.]com         |
+| Sender             | duolingo.ads@libero[.]it    |
+| Reply-To           | info@duolingo-team[.]com    |
 | IP Address         | 216[.]120[.]147[.]200       |
 | Related IP Address | 34[.]98[.]99[.]30           |
 
