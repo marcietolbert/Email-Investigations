@@ -92,13 +92,15 @@ Overall, the attack leverages a combination of:
 
 SPF and DKIM passed for the sending domain but do not validate the impersonated Duolingo brand. The reply-to domain failed DKIM and DMARC, indicating misalignment and potential malicious intent. 
  
-**Sending IP mapped to domain:** 216[.]120[.]147[.]200 
+**Sending IP:** 213[.]209[.]17[.]209
 
 **Characteristics:** 
-- **ISP:** Bodis, LLC 
-- **Domain Name:** Bodis 
+- **ISP:** Italiaonline S.p.A. 
+- **Domain Name:** italiaonline.it
 
-The sending domain and IP address do not align with Uber’s known infrastructure, supporting the assessment that the domain is unauthorized and potentially malicious.
+**Reply-To IP:** Could not be resolved
+
+The discrepancy between the sending domain and reply-to domain indicates an attempt to redirect recipient responses to attacker-controlled infrastructure. The reply-to domain does not resolve and lacks established reputation, suggesting it may be newly created or transient, a technique commonly observed in phishing campaigns.
 
 ### Domain Intelligence 
 
