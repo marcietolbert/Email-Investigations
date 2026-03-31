@@ -76,9 +76,19 @@ Overall, the attack leverages a combination of:
 #### Authentication Results 
 | **Control** | **Result** | **Interpretation**             |
 |-------------|------------|--------------------------------|
-| SPF         | None       | No sender authorization policy |
+| SPF         | None       | Passed                         |
+| DMARC       | None       | Passed                         |
+| DKIM        | None       | No domain protection policy    |
+
+**Reply-To:** info@duolingo-team[.]com
+
+#### Authentication Results 
+| **Control** | **Result** | **Interpretation**             |
+|-------------|------------|--------------------------------|
+| SPF         | None       | Passed                         |
 | DMARC       | None       | DKIM signing not implemented   |
 | DKIM        | None       | No domain protection policy    |
+
 
 The domain lacks SPF, DKIM, and DMARC configurations, preventing validation of sender authenticity and weakening email security controls. This significantly increases the domain’s susceptibility to spoofing and makes it a viable candidate for abuse in phishing campaigns. 
  
