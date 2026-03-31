@@ -90,7 +90,7 @@ Overall, the attack leverages a combination of:
 | DKIM        | None       | No domain protection policy    |
 
 
-The domain lacks SPF, DKIM, and DMARC configurations, preventing validation of sender authenticity and weakening email security controls. This significantly increases the domain’s susceptibility to spoofing and makes it a viable candidate for abuse in phishing campaigns. 
+SPF and DKIM passed for the sending domain but do not validate the impersonated Duolingo brand. The reply-to domain failed DKIM and DMARC, indicating misalignment and potential malicious intent. 
  
 **Sending IP mapped to domain:** 216[.]120[.]147[.]200 
 
