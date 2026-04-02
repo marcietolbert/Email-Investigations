@@ -126,7 +126,14 @@ The discrepancy between the sending domain and reply-to domain indicates an atte
 | Connecting IP Address | 90[.]160[.]50[.]35          |
 
 ### Recommendations / Next Steps 
-1. Block the impersonating domain (partner-uber[.]com) across email and network security controls. 
+1. Block the impersonating domain (duolingo-team[.]com), sender email  across email and network security controls:
+
+     - **Domain:** duolingo-team[.]com
+   
+     - **Sender Email:** duolingo.ads@libero[.]it
+   
+     - **Reply-To Email:** info@duolingo-team[.]com
+   
 2. Quarantine and remove the phishing email from all affected mailboxes. 
 3. Conduct a search across email logs to identify additional recipients and similar phishing attempts. 
 4. Review user activity for any signs of interaction, including link clicks or credential submission. 
