@@ -44,4 +44,4 @@ Through these manual email analysis exercises, the following skills were develop
 
 - **Email #1:** <a href="https://github.com/marcietolbert/Email-Investigations/blob/main/Exciting-Collaboration-Opportunity.md">Exciting Collaboration Opportunity</a>
 - **Email #2:** <a href="https://github.com/marcietolbert/Email-Investigations/blob/main/Join-Us-in-Creating-Unique-Material.md">Join Us in Creating Unique Material</a>
-- **Email #3:** <a href="https://github.com/marcietolbert/Email-Investigations/blob/main/Join-Us-in-Creating-Unique-Material.md">Security Notification</a>
+- **Email #3:** <a href="https://github.com/marcietolbert/Email-Investigations/blob/main/Security-Notification.md">Security Notification</a>
