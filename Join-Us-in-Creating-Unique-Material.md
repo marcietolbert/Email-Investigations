@@ -126,7 +126,7 @@ The discrepancy between the sending domain and reply-to domain indicates an atte
 | Connecting IP Address | 90[.]160[.]50[.]35          |
 
 ### Recommendations / Next Steps 
-1. Block the impersonating domain (duolingo-team[.]com), sender email  across email and network security controls:
+1. Block the following across email and network security controls:
 
      - **Domain:** duolingo-team[.]com
    
