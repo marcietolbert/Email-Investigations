@@ -9,3 +9,10 @@ This report documents the analysis of a suspected phishing email leveraging cryp
 ## Report
 
 Suspected Phishing Email – Account Verification
+
+### Analyst
+
+M. Tolbert
+
+### Summary of Findings
+
