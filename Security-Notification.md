@@ -16,4 +16,4 @@ M. Tolbert
 
 ### Summary of Findings
 
-On June 05, 2025, at 02:23:59 UTC, the mailbox inquiry@mydfir[.]com received an email appearing to originate from MetaMask. The message posed as a collaboration request and leveraged curiosity as a social engineering tactic to prompt a response. The recipient reported no interaction with the email.
+On June 05, 2025, at 02:23:59 UTC, the mailbox inquiry@mydfir[.]com received an email appearing to originate from MetaMask,a cryptocurrency wallet and Web3 application. The message posed as a collaboration request and leveraged curiosity as a social engineering tactic to prompt a response. The recipient reported no interaction with the email.
