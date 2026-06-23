@@ -16,4 +16,4 @@ M. Tolbert
 
 ### Summary of Findings
 
-On June 05, 2025, at 02:23:59 UTC, the mailbox inquiry@mydfir[.]com received an email appearing to originate from MetaMask,a cryptocurrency wallet and Web3 application. The message posed as a collaboration request and leveraged curiosity as a social engineering tactic to prompt a response. The recipient reported no interaction with the email.
+On June 05, 2025, at 02:23:59 UTC, the mailbox inquiry@mydfir[.]com received an email appearing to originate from MetaMask,a cryptocurrency wallet and Web3 application. The message, with a closing signature of MetaMask Security Team claims there has been an unrecognized login attempt to the recipients MetaMask account. Specifically that their wallet was accessed from an unrecognized location or device and that they must verify this activity immediately in order to protect their assets. Language utilized within the message included: sense of urgency, call-to-action, fear tactic, and trust-building/reassurance. The recipient reported no interaction with the email.
